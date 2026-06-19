@@ -1,0 +1,8 @@
+{
+    "install": {
+        "run": {
+            "*": "python3 -c \"from scripts import build; build()\""
+        },
+        "from": "build/quill-template-python-bundle.zip"
+    }
+}

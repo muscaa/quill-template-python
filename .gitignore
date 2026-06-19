@@ -1,22 +1,12 @@
-## Build:
-/bin/
+# Python-generated files
+__pycache__/
+*.py[oc]
 /build/
+/dist/
+/wheels/
+*.egg-info
+/.vscode/
 
-## Gradle:
-.gradle/
-
-## Java:
-*.class
-
-## IntelliJ:
-.idea/
-
-## Eclipse:
-.settings/
-.classpath
-.project
-*.launch
-
-## OS:
-.DS_Store
-Thumbs.db
+# Virtual environments
+/.venv
+/uv.lock

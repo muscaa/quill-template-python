@@ -1,12 +1,15 @@
-# Python-generated files
+# Python & IDE
+.venv/
 __pycache__/
 *.py[oc]
-/build/
-/dist/
-/wheels/
-*.egg-info
-/.vscode/
+.egg-info
+.vscode/
+uv.lock
 
-# Virtual environments
-/.venv
-/uv.lock
+# OS
+.DS_Store
+
+# Project Specific
+/wheels/
+/dist/
+/build/

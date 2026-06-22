@@ -2,9 +2,6 @@
 name = "quill-template-python"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = [
-    "jpype1>=1.7.1",
-]
 
 [build-system]
 requires = ["hatchling"]
@@ -16,6 +13,7 @@ sources = ["."]
 
 [project.scripts]
 init = "scripts:init"
+env = "scripts:env"
 generate = "scripts:generate"
 dev = "scripts:dev"
 build = "scripts:build"
